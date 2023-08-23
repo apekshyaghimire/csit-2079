@@ -73,3 +73,36 @@ nav a:first-child{
     width: 150px;
 
 }
+footer{
+    background-color: black;
+    padding: 30px 0;
+}  
+footer .container{
+    display: flex;
+}
+.footer_box{
+width: 33%;
+color: white;
+}
+.footer_box h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted gray;
+    display: inline-block;
+}
+.footer_box ul{
+    margin: 10px 0;
+    list-style: none;
+}
+.footer_box ul l1{
+    padding: 5px 0;
+}
+.footer_box ul li a{
+    color: chartreuse;
+    font:normal 16px helvettica;
+    text-decoration: none;
+}
+.footer_box u1 li a:hover{
+    text-decoration: underline;
+}    
